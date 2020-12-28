@@ -1,0 +1,33 @@
+import java.util.*;
+public class VowelConsonant {
+    public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    String str=sc.next();
+    for(int loopOnPower=0;loopOnPower<str.length();loopOnPower++) {
+        char ch = str.charAt(loopOnPower);
+
+        switch (ch) {
+            case 'A':
+            case 'E':
+            case 'I':
+            case 'O':
+            case 'U':
+            case 'a':
+            case 'e':
+            case 'i':
+            case 'o':
+            case 'u':
+
+    System.out.println("Vowel");
+    break;
+    default:
+
+
+        System.out.println("Consonant");
+
+
+        }
+    }
+
+    }
+}
